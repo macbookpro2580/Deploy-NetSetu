@@ -1,0 +1,6 @@
+{
+  "name": "NetSetu — Remote Internet Sharing Platform",
+  "description": "Secure remote internet sharing and reverse encrypted tunneling platform between mobile and desktop devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

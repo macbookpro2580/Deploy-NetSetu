@@ -1,0 +1,22 @@
+{
+  "name": "netsetu-desktop-client",
+  "version": "1.0.0",
+  "description": "NetSetu Desktop Client for Windows and Linux - Routes browser and application traffic through remote provider",
+  "main": "dist/client.js",
+  "bin": {
+    "netsetu": "./bin/netsetu.js"
+  },
+  "scripts": {
+    "start": "tsx src/client.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/ws": "^8.5.14",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
